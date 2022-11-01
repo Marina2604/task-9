@@ -1,0 +1,18 @@
+@mixin Btn($colory:red){
+    font-family:Arial;
+    font-weight: 600;
+    background-color:$colory;
+    height: 100px;
+    width: 100px;
+    border:1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.red {
+    @include Btn 
+}
+.green{
+    @include Btn( $colory:green)
+}

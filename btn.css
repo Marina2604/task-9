@@ -1,0 +1,25 @@
+.red {
+  font-family: Arial;
+  font-weight: 600;
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.green {
+  font-family: Arial;
+  font-weight: 600;
+  background-color: green;
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=btn.css.map */
